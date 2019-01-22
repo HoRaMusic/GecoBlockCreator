@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>271</width>
+    <height>407</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="inputsLab">
+     <property name="text">
+      <string>Inputs (comma seperated witheout space)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="inputs"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="outputsLab">
+     <property name="text">
+      <string>Outputs (comma seperated witheout space)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="outputs"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="categoryLab">
+     <property name="text">
+      <string>Category</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="category"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="fileNameLab">
+     <property name="text">
+      <string>File Name</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="fileName"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="blockNameLab">
+     <property name="text">
+      <string>Block name</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="blockName"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="classNameLab">
+     <property name="text">
+      <string>Class name</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="className"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>create the block model</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
