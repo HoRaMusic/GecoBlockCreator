@@ -39,3 +39,7 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+###
+ICON = ./Resources/osx/BlockModelCreator.icns
+RC_FILE = Resources/win/rc.rc
