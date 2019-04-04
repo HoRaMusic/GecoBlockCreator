@@ -11,7 +11,7 @@ rd build-win
 mkdir build-win
 cd build-win
 
-%QTDIR%/qmake.exe ../../BlockModelCreator.pro -config release
+%QTDIR%/qmake.exe ../BlockModelCreator.pro -config release
 %TOOLS%/mingw32-make.exe
 REM %QTDIR%/windeployqt release/BlockModelCreator.exe
 
